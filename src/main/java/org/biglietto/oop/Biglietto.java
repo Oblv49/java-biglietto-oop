@@ -42,7 +42,6 @@ public class Biglietto {
         public LocalDate getDataDiScadenza() {
             return dataDiScadenza;
         }
-
         //set
         public void setKm(int km) {
             this.km = km;
