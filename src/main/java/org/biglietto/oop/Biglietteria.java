@@ -22,7 +22,7 @@ public class Biglietteria {
                 // Creazione del biglietto
                 LocalDate dataOdierna = LocalDate.now();
                 Biglietto biglietto = new Biglietto(km, eta, dataOdierna, dataFlessibile);
-                // Calcola e stampa il prezzo del biglietto
+                // Calcola e stampa il prezzo del biglietto e la data di scadenza
                 BigDecimal prezzo = biglietto.calcolaPrezzo();
                 System.out.println("Il prezzo del biglietto è: " + prezzo + "€");
                 System.out.println("Data di scadenza: " + biglietto.getDataDiScadenza());
