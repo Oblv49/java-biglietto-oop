@@ -8,10 +8,8 @@ public class Biglietto {
     //VARIABLES
     private int km;
     private int eta;
-
     private LocalDate date;
     private boolean dataFlessibile;
-
     private LocalDate dataDiScadenza;
 
     //CONSTANT
@@ -34,23 +32,23 @@ public class Biglietto {
     }
 
     //get & set
-    //get
-    public int getKm() {
-        return km;
-    }
-    public int getEta() {
-        return eta;
-    }
-    public LocalDate getDataDiScadenza() {
-        return dataDiScadenza;
-    }
+        //get
+        public int getKm() {
+            return km;
+        }
+        public int getEta() {
+            return eta;
+        }
+        public LocalDate getDataDiScadenza() {
+            return dataDiScadenza;
+        }
 
-    //set
-    public void setKm(int km) {
-        this.km = km;
-    }
-    public void setEta(int eta) {
-        this.eta = eta;
+        //set
+        public void setKm(int km) {
+            this.km = km;
+        }
+        public void setEta(int eta) {
+            this.eta = eta;
     }
 
     //METHOD
